@@ -1,0 +1,21 @@
+
+<
+java:S1170"!Make this final field static too.(´öÜÿÿÿÿÿ
+p	java:S116"VRename this field "CODE_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´öÜÿÿÿÿÿ
+P
+java:S1117":Rename "random" which hides the field declared at line 29.(¼ÝÅf
+<
+java:S1170"!Make this final field static too.(÷ºûÿÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(þŸâÌüÿÿÿÿ
+`	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(´´¤‹øÿÿÿÿ
+j	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þŸâÌüÿÿÿÿ
+j	java:S116"URename this field "RAND_RANGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Õãœ
+k	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ºûÿÿÿÿÿ
+j
+java:S2095W"OUse try-with-resources or close this "ImageOutputStream" in a "finally" clause.(Œ±½µÿÿÿÿÿ
+4
+java:S2119"Save and re-use this "Random".(¼ÝÅf
+e	java:S116"PRename this field "CHARS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß»ƒÄ
+7
+java:S1170"!Make this final field static too.(¶Õãœ

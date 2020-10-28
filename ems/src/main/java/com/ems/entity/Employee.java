@@ -2,12 +2,15 @@ package com.ems.entity;
 
 import lombok.*;
 
-import java.time.LocalDateTime;
-
+/**
+ * @author xiaozhihe
+ * @Description: ${todo}
+ * @date 2020/7/1320:30
+ */
 @Data
 @Builder(toBuilder = true)
 @ToString
-public class User {
+public class Employee {
     /**
      * 编号
      */
@@ -15,11 +18,11 @@ public class User {
     /**
      * 姓名
      */
-    private String userName;
+    private String name;
     /**
      * 档案
      */
-    private String realName;
+    private String profilePath;
     /**
      * 性别
      */
@@ -27,13 +30,9 @@ public class User {
     /**
      * 年龄
      */
-    private String password;
-    /**
-     * 状态
-     */
-    private String status;
+    private int age;
     /**
      * 薪资
      */
-    private LocalDateTime registertTime;
+    private double salary;
 }
