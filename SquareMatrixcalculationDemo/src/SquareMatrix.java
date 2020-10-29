@@ -8,6 +8,6 @@ public class SquareMatrix {
     private int[][] array;
 
     public int[][] getSquareMatrix(int n){
-        return array[n][n];
+        return null;
     }
 }
