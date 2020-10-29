@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace用于绑定Dao接口 -->
+<mapper namespace="com.ems.dao.UserMapper">
+    <!-- 用用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ems.entity.User" >
+        <!-- column代表数据库列名，property代表实体类属性名 -->
+        <!--<result column="user_id" property="userId"/>-->
+        <!--<result column="user_name" property="userName"/>-->
+        <!--<result column="user_password" property="userPassword"/>-->
+    </resultMap>
+    <!-- 查询名字记录sql -->
+    <select id="selectUserBatch" resultType="com.ems.entity.User">
+        SELECT * FROM t_user
+    </select>
+</mapper>
